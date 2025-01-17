@@ -21,8 +21,9 @@ st.set_page_config(layout="wide")
 
 
 
-fileContent = ["","python101.md","python102.md","python103.md","PythonForDataSci101.md",
-               "game101.md","PythonForApplications101.md","MathByCodingInPython101.md",
+fileContent = ["","python101.md","python102.md","python103.md",
+               "game101.md","PythonForDataSci101.md",
+               "PythonForApplications101.md","MathByCodingInPython101.md",
                "FinCodeforNewGen101.md"]
 listCourse = ["<กรุณาเลือกคอร์สเรียน>",
                                      "Python For New Gen101", 
