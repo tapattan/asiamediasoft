@@ -1,7 +1,8 @@
 import pandas as pd
 import streamlit as st
-
 import requests
+
+# document version 0.1 2025-01-17
 
 # ฟังก์ชันสำหรับส่งการแจ้งเตือนผ่าน LINE Notify
 def send_line_notify(message, token):
@@ -87,7 +88,7 @@ with st.form("registration_form"):
 
 
 # Sidebar
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("logo.png", use_container_width=True)
 st.sidebar.header("About")
 st.sidebar.markdown(
     "[Asiamediasoft](https://www.facebook.com/asiamediasoft.training) อบรมเรียน Python สอนเขียนโปรแกรมสำหรับน้องๆ ระดับชั้นมัธยม"
@@ -101,5 +102,4 @@ st.sidebar.markdown(
 - [Mobile](tel:0659925697) : 0659925697
 """
 )
- 
  
